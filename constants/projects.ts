@@ -175,7 +175,7 @@ export const events: Event[] = [
     name: "AU Hackathon 2.0",
     category: "Hackathon",
     tags: ["hackathon", "coding", "AU", "competition", "innovation"],
-    description: "The second edition of AU Hackathon brings together top student developers for 24+ hours of intense coding, innovation, and collaboration. Build groundbreaking solutions to real-world problems and compete for glory and prizes. Featuring industry mentors, live judging, and exciting challenges focused on cutting-edge technologies.",
+    description: "The second edition of AU Hackathon brings together top student developers for 8+ hours of intense coding, innovation, and collaboration. Build groundbreaking solutions to real-world problems and compete for glory and prizes. Featuring industry mentors, live judging, and exciting challenges focused on cutting-edge technologies.",
     date: "Mar 20, 2026",
     viewUrl: "/events/11",
     color: "rgba(34,197,94)", // Green
