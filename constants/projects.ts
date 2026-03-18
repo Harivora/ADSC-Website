@@ -171,21 +171,16 @@ export const events: Event[] = [
   },
   {
     id: "10",
-    image: "/images/events/aisummit.jpeg",
-    name: "Full stack development with basic coding knowledge - Workshop",
-    category: "Full Stack Development",
-    tags: [
-      "Full stack development",
-      "Core coding concepts",
-      "How to use AI tools in development",
-      "Decoding",
-    ],
-    description:
-      "A comprehensive workshop designed to guide participants with basic coding knowledge through the journey of becoming proficient full stack developers. The session will cover essential coding concepts, introduce popular AI tools that can enhance development workflows, and provide practical insights into building full stack applications. Attendees will learn how to leverage AI in their development process, understand the core principles of both frontend and backend development, and gain the confidence to create robust applications from start to finish.",
-    date: "Feb 16, 2026",
-    color: "rgba(59,130,246)", // Blue
-    btnBg: "rgba(29,78,216,0.5)",
-    btnBgHover: "rgba(30,58,138)",
-    cardBg: "rgba(29,78,216,0.05)",
+    image: "/images/events/Au-Hackathon-2.0.png",
+    name: "AU Hackathon 2.0",
+    category: "Hackathon",
+    tags: ["hackathon", "coding", "AU", "competition", "innovation"],
+    description: "The second edition of AU Hackathon brings together top student developers for 24+ hours of intense coding, innovation, and collaboration. Build groundbreaking solutions to real-world problems and compete for glory and prizes. Featuring industry mentors, live judging, and exciting challenges focused on cutting-edge technologies.",
+    date: "Mar 20, 2026",
+    viewUrl: "/events/11",
+    color: "rgba(34,197,94)", // Green
+    btnBg: "rgba(21,128,61,0.5)",
+    btnBgHover: "rgba(20,83,45)",
+    cardBg: "rgba(21,128,61,0.05)",
   }
 ];
