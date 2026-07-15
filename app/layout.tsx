@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import { Inter, Silkscreen } from "next/font/google";
-
+import Script from "next/script";
 import Footer from "@/components/layout/Footer";
 import NavBar from "@/components/layout/NavBar";
 import "./globals.css";
@@ -66,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${silkscreen.variable} relative`}>
+        
         <Providers>
           <main>
             <NavBar />
