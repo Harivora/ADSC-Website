@@ -66,7 +66,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${silkscreen.variable} relative`}>
-        
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DSP01MXNJR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DSP01MXNJR');
+          `}
+        </Script>
         <Providers>
           <main>
             <NavBar />
